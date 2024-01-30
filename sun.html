@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sun</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <div id="sky">
+        <div id="sun"></div>
+    </div>
+    <div id="controls">
+        <span class="text">Select hour:</span>
+        <input id="inputHour"
+        type="range" 
+        min="6"
+        max="18"
+        step="1"
+        value="6" 
+        onchange="adjustSun()"> 
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
+
